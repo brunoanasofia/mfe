@@ -1,8 +1,8 @@
 name: build-container
 
-on:
+on: workflow_dispatch
   push:
-    branches: fffff
+    branches:
       - master
     paths:
       - "packages/container/**"
